@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        #div {
+            width: 949px;
+            height: 940px;
+            border: 1px solid #fceaa9;
+            margin: 0 auto;
+        }
+        
+        #title {
+            width: 949px;
+            height: 254px;
+            background-image: url(images/banner.gif);
+        }
+        
+        #nav {
+            width: 949px;
+            height: 38px;
+            background-image: url(images/navbg.gif);
+        }
+        
+        #home {
+            height: 38px;
+            width: 80px;
+            font-size: 20px;
+            line-height: 38px;
+            text-align: center;
+            color: darkgreen;
+            font-style: bold;
+            background-image: url(images/navbghover.gif);
+            margin-left: 25px;
+            float: left;
+        }
+        
+        .nav {
+            height: 38px;
+            width: 80px;
+            font-size: 20px;
+            line-height: 38px;
+            text-align: center;
+            color: darkgreen;
+            font-style: bold;
+            background-image: url(images/navbg.gif);
+            margin-left: 25px;
+            float: left;
+        }
+        
+        .navover{
+            height: 38px;
+            width: 80px;
+            font-size: 20px;
+            line-height: 38px;
+            text-align: center;
+            color: darkgreen;
+            font-style: bold;
+            background-image: url(images/navbghover.gif);
+            margin-left: 25px;
+            float: left;
+        }
+        
+        #search {
+            height: 38px;
+            width: 50px;
+            font-size: 12px;
+            line-height: 38px;
+            text-align: center;
+            color: darkgreen;
+            font-style: bold;
+            margin-left: 90px;
+            margin-right: 10px;
+            float: left;
+        }
+        
+        .search {
+            width: 135px;
+            height: 38px;
+            float: left;
+            line-height: 38px
+        }
+        
+        #search_btn {
+            background-color: green;
+            color: #fff;
+        }
+        
+        #about {
+            width: 350px;
+            height: 580px;
+            text-align: center;
+            float: left;
+        }
+        
+        #myphoto {
+            width: 239px;
+            height: 318px;
+            background-image: url(images/109395CF4-7.jpg);
+            margin: 0 auto;
+        }
+        
+        #name {
+            width: 20px;
+            height: 17px;
+            background-image: url(images/girl.gif);
+            float: left;
+            margin-top: 25px;
+            margin-left: 135px;
+        }
+        
+        #content {
+            width: 280px;
+            color: #990033;
+            margin: 0 auto;
+            font-size: 15px;
+            font-family: "楷体";
+        }
+        
+        #log {
+            width: 597px;
+            height: 230px;
+            margin-left: 350px;
+            margin-top: 20px;
+            border: 1px solid #cccc99;
+        }
+        
+        #logTitle {
+            width: 597px;
+            height: 25px;
+            background-color: #cccc99;
+            line-height: 25px;
+            text-align: left;
+        }
+        
+        .neirong {
+            width: 580px;
+            background: url(images/ico4.gif) no-repeat;
+            margin: 0 auto;
+        }
+        
+        #photo {
+            width: 597px;
+            height: 305px;
+            margin-left: 350px;
+            margin-top: 20px;
+            border: 1px solid #cccc99;
+        }
+        
+        #photoTitle {
+            width: 597px;
+            height: 25px;
+            background-color: #cccc99;
+            line-height: 25px;
+            text-align: left;
+        }
+        .photos{
+            width: 188px;
+            height: 260px;
+            margin: 5px;
+            float: left;
+        }
+        #bottom{
+            padding-top: 38px;
+            background-image: url(images/footer.gif);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div">
+        <div id="title"></div>
+        <div id="nav">
+            <a href="index.html"><div id="home">主页</div></a>
+            <a href="log.html"><div id="rizhi" class="nav" onmouseover="mouseOver1()" onmouseout="mouseOut1()">日志</div></a>
+            <a href="#"><div id="xiangce" class="nav" onmouseover="mouseOver2()" onmouseout="mouseOut2()">相册</div></a>
+            <a href="#"><div id="liuyan" class="nav" onmouseover="mouseOver3()" onmouseout="mouseOut3()">留言板</div></a>
+            <a href="#"><div id="guanyu" class="nav" onmouseover="mouseOver4()" onmouseout="mouseOut4()">关于我</div></a>
+            <div id="search">站内搜索 </div>
+            <div class="search">
+                <input type="text" />
+            </div>
+            <div class="search">
+                <button id="search_btn">搜索</button>
+            </div>
+        </div>
+        <div id="about">
+            <h3 style="padding-right:250px; margin-bottom:0px;">>>关于我</h3>
+            <hr style="border-top: 1px solid #ff0000" />
+            <div id="myphoto"></div>
+            <div id="name">
+            </div>
+            <h4 style="margin-right:150px">张梅</h4>
+            <h4>重庆市 南岸区</h4>
+            <div id="content">
+                <h4>天 微 明 ， 冬 天 的 光 透 过 窗 ， 印 在 左 手 的 无 名 指 上 。 回 忆 的 颜 色 是 透 明 的 冷 ，于是 ，用 窗 口 透 入 的 薄 薄 的 光 暖 一 暖 心。
+</h4></div>
+        </div>
+        <div id="log">
+            <div id="logTitle">>>日志</div>
+            <div class="neirong">IMAX加长版《变形金刚》（Transformers）亲历简报 2007-09-25
+                <hr style="border-top:1px dashed #000000;">
+            </div>
+
+            <div class="neirong">《变形金刚》发烧友的看图说话（多图） 2007-09-22 10:13
+                <hr style="border-top:1px dashed #000000;">
+            </div>
+            <div class="neirong">《反恐王国》（The Kingdom）：生猛的空心弹 2007-09-22 08:03
+                <hr style="border-top:1px dashed #000000;">
+            </div>
+            <div class="neirong">《东方承诺》（Eastern Primises）：不动如山，暗流汹涌 2007-09-20 11:07
+                <hr style="border-top:1px dashed #000000;">
+            </div>
+            <div class="neirong">《妖精的旋律》（Elfen Lied）：日式YY的经典案例 2007-09-20 10:44
+                <hr style="border-top:1px dashed #000000;">
+            </div>
+        </div>
+        <div id="photo">
+            <div id="photoTitle">>>相册</div>
+            <div class="photos" style="background:url(images/1.jpg);background-size: cover;"></div>
+            <div class="photos" style="background:url(images/2.jpg);background-size: cover;"></div>
+            <div class="photos" style="background:url(images/3.jpg);background-size: cover;"></div>
+        </div>
+        <p id="bottom">BLOG公司版权所有 1997-2010</p>
+    </div>
+    <script>
+        function mouseOver1(){
+            document.getElementById("rizhi").className="navover";
+        }
+        
+        function mouseOut1(){
+            document.getElementById("rizhi").className="nav";
+        }
+        function mouseOver2(){
+            document.getElementById("xiangce").className="navover";
+        }
+        
+        function mouseOut2(){
+            document.getElementById("xiangce").className="nav";
+        }
+        function mouseOver3(){
+            document.getElementById("liuyan").className="navover";
+        }
+        
+        function mouseOut3(){
+            document.getElementById("liuyan").className="nav";
+        }
+        function mouseOver4(){
+            document.getElementById("guanyu").className="navover";
+        }
+        
+        function mouseOut4(){
+            document.getElementById("guanyu").className="nav";
+        }
+    </script>
+</body>
+
+</html>
